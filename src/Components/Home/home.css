@@ -1,0 +1,18 @@
+
+a{
+    color:red;
+}
+a:hover{
+    color:white;
+    }
+a:active{
+color:blue;
+
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+}
+h2{
+  font-family:'Times New Roman', Times, serif 
+}

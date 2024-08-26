@@ -1,0 +1,42 @@
+*{
+    text-decoration: !important;
+}
+.banner {
+    background: url(./Image/bannerbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 540px;
+}
+
+.mixbtn{
+    background-color: transparent;
+    border-right: 3px solid rgb(212, 64, 64);
+    border-bottom: 3px solid rgb(219, 64, 64);
+    color: rgb(26, 6, 6);
+    font-size:larger;
+}
+.count span{
+    user-select: none;
+    font-size:30px;
+    padding: 6px;
+    cursor: pointer;
+}
+.count span:first-child:hover , .count span:last-child:hover{
+    color: rgb(214, 22, 118);
+}
+#items{
+    transition: all .5s;
+}
+#items:hover{
+    box-shadow: 3px 3px 10px lightgray;
+    border-radius: 20px;
+}
+#rider{
+    clip-path: polygon(15% 17%, 86% 16%, 86% 93%, 15% 93%);
+
+}
+footer {
+    background-color: #000000;
+}
+
